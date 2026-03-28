@@ -179,6 +179,146 @@ function renderSection(section) {
   return div;
 }
 
+
+function renderTierDiagram() {
+  const div = document.createElement('div');
+  div.innerHTML = `<svg width="100%" viewBox="0 0 620 520" xmlns="http://www.w3.org/2000/svg" style="display:block;margin:16px 0;">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#2a2a3e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+
+<!-- Vertical spine -->
+<line x1="100" y1="44" x2="100" y2="130" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr)"/>
+<line x1="100" y1="164" x2="100" y2="210" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr)"/>
+<line x1="100" y1="244" x2="100" y2="285" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr)"/>
+
+<!-- Fan from Apex Skeletal to elementals -->
+<path d="M100 318 L100 340 L60 340 L60 370" fill="none" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr)"/>
+<path d="M100 318 L100 340 L155 340 L155 370" fill="none" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr)"/>
+<path d="M100 318 L100 340 L250 340 L250 370" fill="none" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr)"/>
+<path d="M100 318 L100 340 L345 340 L345 370" fill="none" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr)"/>
+<path d="M100 318 L100 340 L440 340 L440 370" fill="none" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr)"/>
+<path d="M100 318 L100 340 L535 340 L535 370" fill="none" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr)"/>
+
+<!-- Elementals converge to Plasma/Ghost row -->
+<path d="M60 404 L60 430 L230 430" fill="none" stroke="#2a2a3e" stroke-width="1"/>
+<path d="M155 404 L155 430" fill="none" stroke="#2a2a3e" stroke-width="1"/>
+<path d="M250 404 L250 430" fill="none" stroke="#2a2a3e" stroke-width="1"/>
+<path d="M345 404 L345 430" fill="none" stroke="#2a2a3e" stroke-width="1"/>
+<path d="M440 404 L440 430 L230 430" fill="none" stroke="#2a2a3e" stroke-width="1"/>
+<path d="M535 404 L535 430 L230 430" fill="none" stroke="#2a2a3e" stroke-width="1"/>
+<line x1="230" y1="430" x2="230" y2="458" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr)"/>
+
+<!-- Plasma/Ghost -> Plague -> Bionic -> Demonic/Celestial -> Godly -->
+<line x1="230" y1="490" x2="230" y2="510" stroke="#2a2a3e" stroke-width="0.5"/>
+
+<!-- Alpha -->
+<a href="#alpha"><g style="cursor:pointer">
+  <rect x="40" y="20" width="120" height="32" rx="4" fill="#1a1a28" stroke="#e8580a" stroke-width="1"/>
+  <text x="100" y="40" text-anchor="middle" dominant-baseline="central" font-family="Orbitron,monospace" font-size="11" font-weight="700" fill="#e8580a">Alpha</text>
+</g></a>
+
+<!-- Apex -->
+<a href="#apex"><g style="cursor:pointer">
+  <rect x="40" y="130" width="120" height="32" rx="4" fill="#1a1a28" stroke="#e8580a" stroke-width="1"/>
+  <text x="100" y="150" text-anchor="middle" dominant-baseline="central" font-family="Orbitron,monospace" font-size="11" font-weight="700" fill="#e8580a">Apex</text>
+</g></a>
+
+<!-- Apex Skeletal label -->
+<rect x="40" y="210" width="120" height="28" rx="4" fill="#14141e" stroke="#2a2a3e" stroke-width="1"/>
+<text x="100" y="224" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="11" fill="#7878a0">Apex Skeletal</text>
+
+<!-- Elemental row -->
+<a href="#elemental"><g style="cursor:pointer">
+  <rect x="25" y="370" width="70" height="34" rx="4" fill="#1a1a28" stroke="#534AB7" stroke-width="1"/>
+  <text x="60" y="387" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="10" font-weight="700" fill="#AFA9EC">Storm</text>
+</g></a>
+<a href="#elemental"><g style="cursor:pointer">
+  <rect x="118" y="370" width="74" height="34" rx="4" fill="#1a1a28" stroke="#993C1D" stroke-width="1"/>
+  <text x="155" y="387" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="10" font-weight="700" fill="#F0997B">Volcanic</text>
+</g></a>
+<a href="#elemental"><g style="cursor:pointer">
+  <rect x="213" y="370" width="74" height="34" rx="4" fill="#1a1a28" stroke="#185FA5" stroke-width="1"/>
+  <text x="250" y="387" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="10" font-weight="700" fill="#85B7EB">Hydro</text>
+</g></a>
+<a href="#elemental"><g style="cursor:pointer">
+  <rect x="308" y="370" width="74" height="34" rx="4" fill="#1a1a28" stroke="#185FA5" stroke-width="1"/>
+  <text x="345" y="387" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="10" font-weight="700" fill="#85B7EB">Frost</text>
+</g></a>
+<a href="#elemental"><g style="cursor:pointer">
+  <rect x="403" y="370" width="74" height="34" rx="4" fill="#1a1a28" stroke="#3B6D11" stroke-width="1"/>
+  <text x="440" y="387" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="10" font-weight="700" fill="#97C459">Nature</text>
+</g></a>
+<a href="#elemental"><g style="cursor:pointer">
+  <rect x="498" y="370" width="74" height="34" rx="4" fill="#1a1a28" stroke="#854F0B" stroke-width="1"/>
+  <text x="535" y="387" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="10" font-weight="700" fill="#EF9F27">Earth</text>
+</g></a>
+
+<!-- Plasma/Ghost -->
+<a href="#plasma-ghost-plague"><g style="cursor:pointer">
+  <rect x="155" y="458" width="80" height="32" rx="4" fill="#1a1a28" stroke="#534AB7" stroke-width="1"/>
+  <text x="195" y="474" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="10" font-weight="700" fill="#AFA9EC">Plasma</text>
+</g></a>
+<a href="#plasma-ghost-plague"><g style="cursor:pointer">
+  <rect x="245" y="458" width="70" height="32" rx="4" fill="#1a1a28" stroke="#5F5E5A" stroke-width="1"/>
+  <text x="280" y="474" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="10" font-weight="700" fill="#B4B2A9">Ghost</text>
+</g></a>
+
+<!-- Water non-progression note -->
+<rect x="360" y="458" width="245" height="48" rx="4" fill="#14141e" stroke="#2a2a3e" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="482" y="474" text-anchor="middle" font-family="Rajdhani,sans-serif" font-size="10" fill="#7878a0">Water (non-progression)</text>
+<text x="482" y="490" text-anchor="middle" font-family="Rajdhani,sans-serif" font-size="9" fill="#5F5E5A">Pacific ≈ Alpha · Atlantic ≈ Apex</text>
+
+<!-- Plague below, then Bionic, then Celestial/Demonic, then Godly — these overflow but thats ok -->
+</svg>
+
+<!-- Second row — Plague onward -->
+<svg width="100%" viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" style="display:block;margin:0 0 16px 0;">
+<defs>
+  <marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#2a2a3e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+
+<line x1="210" y1="0" x2="210" y2="28" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr2)"/>
+<line x1="210" y1="62" x2="210" y2="88" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr2)"/>
+<line x1="210" y1="122" x2="210" y2="148" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr2)"/>
+<path d="M210 182 L210 200 L160 200 L160 218" fill="none" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr2)"/>
+<path d="M210 182 L210 200 L260 200 L260 218" fill="none" stroke="#2a2a3e" stroke-width="1" marker-end="url(#arr2)"/>
+
+<!-- Plague -->
+<a href="#plasma-ghost-plague"><g style="cursor:pointer">
+  <rect x="155" y="28" width="110" height="32" rx="4" fill="#1a1a28" stroke="#A32D2D" stroke-width="1"/>
+  <text x="210" y="44" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="11" font-weight="700" fill="#F09595">Plague</text>
+</g></a>
+
+<!-- Bionic -->
+<a href="#bionic"><g style="cursor:pointer">
+  <rect x="155" y="88" width="110" height="32" rx="4" fill="#1a1a28" stroke="#e8580a" stroke-width="1.5"/>
+  <text x="210" y="104" text-anchor="middle" dominant-baseline="central" font-family="Orbitron,monospace" font-size="11" font-weight="700" fill="#e8580a">Bionic</text>
+</g></a>
+
+<!-- Celestial / Demonic -->
+<a href="#celestial-demonic"><g style="cursor:pointer">
+  <rect x="155" y="148" width="110" height="32" rx="4" fill="#1a1a28" stroke="#534AB7" stroke-width="1"/>
+  <text x="210" y="164" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="11" font-weight="700" fill="#AFA9EC">Celestial / Demonic</text>
+</g></a>
+
+<!-- Godly split -->
+<a href="#celestial-demonic"><g style="cursor:pointer">
+  <rect x="100" y="218" width="110" height="32" rx="4" fill="#1a1a28" stroke="#534AB7" stroke-width="1"/>
+  <text x="155" y="234" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="10" font-weight="700" fill="#AFA9EC">Demonic</text>
+</g></a>
+<a href="#celestial-demonic"><g style="cursor:pointer">
+  <rect x="220" y="218" width="110" height="32" rx="4" fill="#1a1a28" stroke="#0F6E56" stroke-width="1"/>
+  <text x="275" y="234" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="10" font-weight="700" fill="#5DCAA5">Celestial</text>
+</g></a>
+</svg>`;
+  return div;
+}
+
 async function loadGuide() {
   try {
     const resp = await fetch(CONTENT_URL + '?t=' + Date.now());
@@ -204,6 +344,18 @@ async function loadGuide() {
 
     // Render all sections except baseline
     sections.filter(s => s.id !== 'baseline').forEach(section => {
+      if (section.id === 'tier-list') {
+        const tierDiv = document.createElement('div');
+        tierDiv.className = 'section';
+        tierDiv.id = 'tier-list';
+        const titleDiv = document.createElement('div');
+        titleDiv.className = 'section-title';
+        titleDiv.textContent = 'Tier List';
+        tierDiv.appendChild(titleDiv);
+        tierDiv.appendChild(renderTierDiagram());
+        contentEl.appendChild(tierDiv);
+        return;
+      }
       contentEl.appendChild(renderSection(section));
     });
 
