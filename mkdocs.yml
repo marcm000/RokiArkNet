@@ -1,0 +1,28 @@
+site_name: RokiArkNet
+site_description: ARK Survival Ascended server guides and mod documentation
+site_url: https://marcm000.github.io/RokiArkNet
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep orange
+    accent: orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Guides:
+    - Ark Supreme: guides/ark-supreme/index.md
+    - Primal Nemesis: guides/primal-nemesis/index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
