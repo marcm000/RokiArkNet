@@ -245,32 +245,6 @@ Origins are elite-tier creatures that bridge the gap between standard progressio
 
 > STRUCTURE DAMAGE: N/A
 
-### Hunt Primal Creatures
-
-To advance, you'll need Primal Blood — a key ingredient for crafting Origin Tokens.
-
-**Only true Primal creatures drop Primal Blood** — No drops from Tek or Resurrected variants.
-
-> WARNING: Primal creatures apply a Grounded Debuff — flying is completely disabled.
-
-### Defeat Wild Origins
-
-Slaying wild Origin creatures grants Origin Tokens needed to summon Origin bosses.
-
-**Each Origin Kill Rewards** — Origin Token, High-tier materials
-
-> WARNING: These fights are tough — bring fully imprinted, buffed Spirit or Chaos tames with quality saddles and healing potions.
-
-### Boss: Draconis
-
-The most powerful Origin Boss, summoned with crafted scrolls at the Primal Smithy.
-
-**Phase Mechanics** — Activates invulnerable shield at ~90%, ~50%, and ~10% HP. Kill summoned minions to break shields.
-
-**Tameable Draconis** — Chance to drop Tameable Token. Requires Origin Artifact from Mr. Artifact the Original.
-
-> Dodoreapers take 80% reduced damage unless affected by Charged Light — bring a Glowtail or other charge pet.
-
 ### Taming Origins
 
 Tameable Origins can only be summoned using Tameable Tokens, dropped by Draconis minions (50% chance).
