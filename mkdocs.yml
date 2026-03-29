@@ -17,7 +17,7 @@ theme:
 nav:
   - Home: index.md
   - Guides:
-    - Primal Nemesis: guides/primal-nemesis/index.md
+    - Primal Nemesis: primal-nemesis.html
 
 markdown_extensions:
   - admonition
