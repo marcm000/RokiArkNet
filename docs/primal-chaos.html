@@ -87,23 +87,21 @@ function renderTierDiagram(){
   const wrap=document.createElement('div');
   wrap.style.cssText='background:#14141e;border:1px solid #2a2a3e;padding:20px 16px 16px;margin:8px 0;overflow-x:auto;';
 
-  const W=100, H=26;
+  const W=90, H=26, WW=110; // WW = wide width for combined boxes
 
-  // Column positions - Toxic/Alpha stacked in C1 to save space
-  const C1=10, C2=130, C3=250, C4=370, C5=490;
+  // Column positions - tighter spacing
+  const C1=10, C2=115, C3=220, C4=325, C5=450;
 
-  // Vertical center for row 1
-  const centerY=70;
-  const toxicY=centerY-H-10;
-  const alphaY=centerY+10;
+  // Vertical positions
+  const centerY=60;
+  const toxicY=centerY-H-8;
+  const alphaY=centerY+8;
+  const row2Y=145;
 
-  // Row 2 (Demonic/Angelic -> Spirit/Chaos -> Origin -> Nightmare)
-  const row2Y=160;
+  const totalH=210;
+  const totalW=580;
 
-  const totalH=220;
-  const totalW=620;
-
-  let s=`<svg width="100%" viewBox="0 0 ${totalW} ${totalH}" xmlns="http://www.w3.org/2000/svg" style="min-width:560px;display:block;">`;
+  let s=`<svg width="100%" viewBox="0 0 ${totalW} ${totalH}" xmlns="http://www.w3.org/2000/svg" style="min-width:520px;display:block;">`;
   s+=`<defs>`;
   s+=`<marker id="ta" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#3a3a50" stroke-width="1.5" stroke-linecap="round"/></marker>`;
   s+=`</defs>`;
@@ -117,48 +115,49 @@ function renderTierDiagram(){
   s+=L(C1+W/2,toxicY+H,C1+W/2,alphaY,true);
   s+=node(C1,alphaY,W,H,'Alpha','#toxic-alpha','#e8580a','#e8580a','Orbitron,monospace',10,1.5);
 
-  // Arrow to Elementals
-  s+=L(C1+W,centerY,C2,centerY,true);
+  // Arrow FROM ALPHA to Elementals
+  s+=L(C1+W,alphaY+H/2,C2,centerY,true);
 
   // === COLUMN 2: Elementals (3 stacked) ===
   s+=node(C2,centerY-H-4,W,H,'Electric','#elemental','#85B7EB','#85B7EB','Rajdhani,sans-serif',9,1);
-  s+=node(C2,centerY-H/2+H/2,W,H,'Volcanic','#elemental','#F0997B','#F0997B','Rajdhani,sans-serif',9,1);
+  s+=node(C2,centerY,W,H,'Volcanic','#elemental','#F0997B','#F0997B','Rajdhani,sans-serif',9,1);
   s+=node(C2,centerY+H+4,W,H,'Hydro','#elemental','#4a9eff','#4a9eff','Rajdhani,sans-serif',9,1);
-  s+=L(C2+W,centerY,C3,centerY,true);
+  s+=L(C2+W,centerY+H/2,C3,centerY+H/2,true);
 
   // === COLUMN 3: Shadow/Fairy (2 stacked) ===
   s+=node(C3,centerY-H/2-2,W,H,'Shadow','#shadow-fairy','#888888','#aaaaaa','Rajdhani,sans-serif',9,1);
   s+=node(C3,centerY+H/2+2,W,H,'Fairy','#shadow-fairy','#ff7aff','#ff7aff','Rajdhani,sans-serif',9,1);
-  s+=L(C3+W,centerY,C4,centerY,true);
+  s+=L(C3+W,centerY+H/2,C4,centerY+H/2,true);
 
   // === COLUMN 4: Mythic/Fabled/Legendary (3 stacked) ===
   s+=node(C4,centerY-H-4,W,H,'Mythic','#mythic-fabled-legendary','#cf7aff','#cf7aff','Rajdhani,sans-serif',9,1);
-  s+=node(C4,centerY-H/2+H/2,W,H,'Fabled','#mythic-fabled-legendary','#4acfff','#4acfff','Rajdhani,sans-serif',9,1);
+  s+=node(C4,centerY,W,H,'Fabled','#mythic-fabled-legendary','#4acfff','#4acfff','Rajdhani,sans-serif',9,1);
   s+=node(C4,centerY+H+4,W,H,'Legendary','#mythic-fabled-legendary','#ffdd00','#ffdd00','Rajdhani,sans-serif',9,1);
 
   // === ROW 2: Demonic/Angelic -> Spirit/Chaos -> Origin -> Nightmare ===
   // Arrow down from M/F/L
   s+=L(C4+W/2,centerY+H+4+H,C4+W/2,row2Y,true);
 
-  // Demonic/Angelic side by side
-  s+=node(C3,row2Y,W,H,'Demonic','#demonic-angelic','#ff4a4a','#ff4a4a','Rajdhani,sans-serif',9,1);
-  s+=node(C4,row2Y,W,H,'Angelic','#demonic-angelic','#ffffaa','#ffffaa','Rajdhani,sans-serif',9,1);
-  s+=L(C3+W,row2Y+H/2,C4,row2Y+H/2,false);
-  s+=L(C4+W,row2Y+H/2,C5,row2Y+H/2,true);
+  // Demonic/Angelic combined box
+  s+=node(C3,row2Y,WW,H,'Demonic / Angelic','#demonic-angelic','#ff4a4a','#ffaaaa','Rajdhani,sans-serif',9,1);
+  s+=L(C3+WW,row2Y+H/2,C4,row2Y+H/2,true);
 
-  // Spirit/Chaos (2 stacked)
-  s+=node(C5,row2Y-H/2-2,W,H,'Spirit','#spirit-chaos','#7acfff','#7acfff','Rajdhani,sans-serif',9,1);
-  s+=node(C5,row2Y+H/2+2,W,H,'Chaos','#spirit-chaos','#ff7a7a','#ff7a7a','Rajdhani,sans-serif',9,1);
+  // Spirit/Chaos combined box
+  s+=node(C4,row2Y,WW,H,'Spirit / Chaos','#spirit-chaos','#7acfff','#aaddff','Rajdhani,sans-serif',9,1);
 
-  // Origin and Nightmare below Spirit/Chaos
-  const row3Y=row2Y+H+40;
-  s+=L(C5+W/2,row2Y+H/2+2+H,C5+W/2,row3Y,true);
-  s+=node(C4,row3Y,W,H,'Origin','#origin-taming','#e8580a','#e8580a','Orbitron,monospace',10,1.5);
-  s+=L(C4+W,row3Y+H/2,C5,row3Y+H/2,true);
-  s+=node(C5,row3Y,W,H,'Nightmare','#spirit-chaos','#8a2be2','#cf7aff','Orbitron,monospace',10,1.5);
+  // Arrow down to Origin/Nightmare row
+  const row3Y=row2Y+H+30;
+  s+=L(C4+WW/2,row2Y+H,C4+WW/2,row3Y,true);
+
+  // Origin
+  s+=node(C3+WW/2-W/2,row3Y,W,H,'Origin','#origin-taming','#e8580a','#e8580a','Orbitron,monospace',10,1.5);
+  s+=L(C3+WW/2-W/2+W,row3Y+H/2,C4+WW/2-W/2,row3Y+H/2,true);
+
+  // Nightmare
+  s+=node(C4+WW/2-W/2,row3Y,W,H,'Nightmare','#spirit-chaos','#8a2be2','#cf7aff','Orbitron,monospace',10,1.5);
 
   // Beta note at bottom (like Pacific/Atlantic in Nemesis)
-  const noteY=totalH-18;
+  const noteY=totalH-16;
   s+=`<rect x="${C1}" y="${noteY}" width="140" height="14" rx="3" fill="none" stroke="#2a2a3e" stroke-width="1" stroke-dasharray="4 3"/>`;
   s+=`<text x="${C1+70}" y="${noteY+7}" text-anchor="middle" dominant-baseline="central" font-family="Rajdhani,sans-serif" font-size="8" fill="#5F5E5A">Beta~Toxic (water equivalent)</text>`;
 
