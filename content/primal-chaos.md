@@ -299,7 +299,7 @@ The final challenge of Primal Chaos progression.
 
 **Summon** — Crafted using Nightmare Tokens + rare materials
 
-**Fight Mechanics** — Reduces damage from all sources except Nightmare creatures. Nightmares are your key DPS; Angelics in Berserk Mode can soak massive hits with damage absorption.
+**Fight Mechanics** — Takes reduced damage from all sources. Nightmares are your key DPS; Angelics in Berserk Mode can soak massive hits with damage absorption.
 
 **Drops** — DK Armor (unbreakable), DK Saddle, Demonic Rocket Launcher (novelty), Tameable Token (10% chance)
 
