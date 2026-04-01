@@ -86,9 +86,9 @@ When defeated, the Excellent Essence Boss will spawn a tameable Excellent Dodo. 
 
 Once able, breed and level Excellent creatures heavily. These are your main force for taking on the bosses ahead.
 
-> With access to Excellent Kibble, you can now tame a [Descended DodoWyvern](#faq) — a powerful, mobile flier perfect for the [T1 Loot Boss](#loot-bosses) and Unreal Boss fights.
+> With access to Excellent Kibble, you can now tame a [Descended DodoWyvern](#descended-dodowyvern) — a powerful, mobile flier perfect for the [T1 Loot Boss](#loot-bosses) and Unreal Boss fights.
 
-Once tamed, your DodoWyvern opens the path to new opportunities: use it to safely tame a [Descended Rock Drake](#faq), allowing you to obtain your very own [Descended Reaper Prince or Princess](#reaper-evolution).
+Once tamed, your DodoWyvern opens the path to new opportunities: use it to safely tame a [Descended Rock Drake](#descended-rock-drake), allowing you to obtain your very own [Descended Reaper Prince or Princess](#descended-reaper-prince-princess).
 
 ### Unlocking the War Generator
 
@@ -312,7 +312,7 @@ Hunt wild Celestial and Abyssal creatures to collect Souls, Essences, and Hides 
 
 > Begin with mid-tier Celestials and Abyssals to safely gather materials before targeting elite versions.
 
-At this time, you can summon the Descended Degenerate Managarmr from the War Generator to evolve your [Descended Managarmr](#managarmr-evolution).
+At this time, you can summon the Descended Degenerate Managarmr from the War Generator to evolve your [Descended Managarmr](#taming-a-descended-managarmr).
 
 ### Celestial & Abyssal Boss Encounters
 
@@ -379,13 +379,13 @@ Tier 5 marks the entry into the Warchief Trials and the path toward Havoc and Sp
 
 ### T5 Progression Paths
 
-**[Degenerate Ice Titan](#ice-titan-evolution)** — Evolve your Descended Ice Titan, then imbue with Flame or Lightning for unparalleled siege capability
+**[Degenerate Ice Titan](#degenerate-ice-titan)** — Evolve your Descended Ice Titan, then imbue with Flame or Lightning for unparalleled siege capability
 
-**[Deeply Degenerate Managarmr](#managarmr-evolution)** — Craft Evo Core for high-speed burst-damage flier
+**[Deeply Degenerate Managarmr](#deeply-degenerate-managarmr)** — Craft Evo Core for high-speed burst-damage flier
 
 **[Alpha Supply Drops](#supply-drops)** — Unlock Alpha-tier loot runs for rare crafting resources
 
-**[Alpha DodoRexy Evolution](#legendary-evolution)** — Advance to Alpha T-Rex using Order and Chaos Warchief Souls
+**[Alpha DodoRexy Evolution](#alpha-dodorexy)** — Advance to Alpha T-Rex using Order and Chaos Warchief Souls
 
 ### Eternal Light Armor
 
@@ -401,9 +401,9 @@ Your T4 warfighters (Celestial & Abyssal variants of Excellent Bosses) form the 
 
 ### Alternative Paths
 
-**[Primordial Reaper](#reaper-evolution) Evolution** — Evolve your Alpha King or Queen Reaper into the Primordial Reaper, one of the strongest tanks available.
+**[Primordial Reaper](#primordial-reaper) Evolution** — Evolve your Alpha King or Queen Reaper into the Primordial Reaper, one of the strongest tanks available.
 
-**[Alpha Tyrannosaurus](#legendary-evolution) Evolution** — Evolve your Alpha DodoRexy into the Alpha Tyrannosaurus for pure destructive output.
+**[Alpha Tyrannosaurus](#alpha-trex) Evolution** — Evolve your Alpha DodoRexy into the Alpha Tyrannosaurus for pure destructive output.
 
 > Choose based on playstyle — Primordial Reaper dominates through resilience, Alpha Tyrannosaurus embodies relentless offense.
 
@@ -673,9 +673,9 @@ With Warchiefs and Elemental Gods behind you, Tier 7 marks entry into the Warden
 
 By the end of T7, two of your mightiest allies can transcend their limits:
 
-**[Primordial Reaper](#reaper-evolution) to [Warden Reaper](#reaper-evolution)** — Tank of near-immortal fortitude
+**[Primordial Reaper](#primordial-reaper) to [Warden Reaper](#warden-reaper)** — Tank of near-immortal fortitude
 
-**[Celestial Evo Giga](#ancient-evolution) to [Warden Giga](#ancient-evolution)** — Fusion of celestial and ancient essence
+**[Celestial Evo Giga](#celestial-evo-giga) to [Warden Giga](#warden-giga)** — Fusion of celestial and ancient essence
 
 These evolutions require Warden Essences and Legacy items from the Warden Trials.
 
@@ -757,11 +757,11 @@ Witness ascension and descension collide — challenge the gods themselves.
 
 ### T8 Evolution Paths
 
-**[Warden Reaper](#reaper-evolution) to [Supreme Warden Reaper](#reaper-evolution)** — Unmatched durability and rapid regeneration
+**[Warden Reaper](#warden-reaper) to [Supreme Warden Reaper](#supreme-warden-reaper)** — Unmatched durability and rapid regeneration
 
-**[Warden Giga](#ancient-evolution) to [Supreme Warden Giga](#ancient-evolution)** — Pinnacle of raw strength
+**[Warden Giga](#warden-giga) to [Supreme Warden Giga](#supreme-warden-giga)** — Pinnacle of raw strength
 
-**[Alpha T-Rex](#legendary-evolution) to [Supreme Alpha T-Rex](#legendary-evolution)** — Unparalleled burst damage and AoE roar scaling
+**[Alpha T-Rex](#alpha-trex) to [Supreme Alpha T-Rex](#alpha-trex-ascend)** — Unparalleled burst damage and AoE roar scaling
 
 ### God Trial Requirements
 
