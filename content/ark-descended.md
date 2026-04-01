@@ -40,7 +40,7 @@ Ordinary and Descended creatures make up your starting roster. They tame with va
 
 **Descended dinos** — Vary in strength and utility, each brings unique advantages that help bridge the path to higher tiers
 
-> See the [Special Taming Mechanics](#special-taming-mechanics) section for creatures that require unique mechanics to tame.
+> See the [Special Taming Mechanics](#faq) section for creatures that require unique mechanics to tame.
 
 ### Passive Production
 
@@ -86,9 +86,9 @@ When defeated, the Excellent Essence Boss will spawn a tameable Excellent Dodo. 
 
 Once able, breed and level Excellent creatures heavily. These are your main force for taking on the bosses ahead.
 
-> With access to Excellent Kibble, you can now tame a [Descended DodoWyvern](#descended-dodowyvern) — a powerful, mobile flier perfect for the [T1 Loot Boss](#t1-loot-boss) and Unreal Boss fights.
+> With access to Excellent Kibble, you can now tame a [Descended DodoWyvern](#faq) — a powerful, mobile flier perfect for the [T1 Loot Boss](#loot-bosses) and Unreal Boss fights.
 
-Once tamed, your DodoWyvern opens the path to new opportunities: use it to safely tame a [Descended Rock Drake](#descended-rock-drake), allowing you to obtain your very own [Descended Reaper Prince or Princess](#descended-reaper-princeprincess).
+Once tamed, your DodoWyvern opens the path to new opportunities: use it to safely tame a [Descended Rock Drake](#faq), allowing you to obtain your very own [Descended Reaper Prince or Princess](#reaper-evolution).
 
 ### Unlocking the War Generator
 
@@ -250,7 +250,7 @@ With the Oracle Boss defeated, you enter Tier 3, where Divine and Devilish creat
 
 At Tier 3, multiple progression paths open up:
 
-**[Beta Supply Drops](#beta-supply-drop)** — Five-wave loot runs for Ancient Token Clusters and resources
+**[Beta Supply Drops](#supply-drops)** — Five-wave loot runs for Ancient Token Clusters and resources
 
 **[The Infected Line](#infected-evolution)** — Dimorph to Ptero to Infected Divine Argentavis
 
@@ -381,9 +381,9 @@ Tier 5 marks the entry into the Warchief Trials and the path toward Havoc and Sp
 
 **[Degenerate Ice Titan](#ice-titan-evolution)** — Evolve your Descended Ice Titan, then imbue with Flame or Lightning for unparalleled siege capability
 
-**[Deeply Degenerate Managarmr](#deeply-degenerate-managarmr)** — Craft Evo Core for high-speed burst-damage flier
+**[Deeply Degenerate Managarmr](#managarmr-evolution)** — Craft Evo Core for high-speed burst-damage flier
 
-**[Alpha Supply Drops](#alpha-supply-drop)** — Unlock Alpha-tier loot runs for rare crafting resources
+**[Alpha Supply Drops](#supply-drops)** — Unlock Alpha-tier loot runs for rare crafting resources
 
 **[Alpha DodoRexy Evolution](#legendary-evolution)** — Advance to Alpha T-Rex using Order and Chaos Warchief Souls
 
@@ -401,9 +401,9 @@ Your T4 warfighters (Celestial & Abyssal variants of Excellent Bosses) form the 
 
 ### Alternative Paths
 
-**[Primordial Reaper](#primordial-reaper) Evolution** — Evolve your Alpha King or Queen Reaper into the Primordial Reaper, one of the strongest tanks available.
+**[Primordial Reaper](#reaper-evolution) Evolution** — Evolve your Alpha King or Queen Reaper into the Primordial Reaper, one of the strongest tanks available.
 
-**[Alpha Tyrannosaurus](#alpha-trex) Evolution** — Evolve your Alpha DodoRexy into the Alpha Tyrannosaurus for pure destructive output.
+**[Alpha Tyrannosaurus](#legendary-evolution) Evolution** — Evolve your Alpha DodoRexy into the Alpha Tyrannosaurus for pure destructive output.
 
 > Choose based on playstyle — Primordial Reaper dominates through resilience, Alpha Tyrannosaurus embodies relentless offense.
 
@@ -673,9 +673,9 @@ With Warchiefs and Elemental Gods behind you, Tier 7 marks entry into the Warden
 
 By the end of T7, two of your mightiest allies can transcend their limits:
 
-**[Primordial Reaper](#primordial-reaper) to [Warden Reaper](#warden-reaper)** — Tank of near-immortal fortitude
+**[Primordial Reaper](#reaper-evolution) to [Warden Reaper](#reaper-evolution)** — Tank of near-immortal fortitude
 
-**[Celestial Evo Giga](#celestial-evo-giga) to [Warden Giga](#warden-giga)** — Fusion of celestial and ancient essence
+**[Celestial Evo Giga](#ancient-evolution) to [Warden Giga](#ancient-evolution)** — Fusion of celestial and ancient essence
 
 These evolutions require Warden Essences and Legacy items from the Warden Trials.
 
@@ -757,11 +757,11 @@ Witness ascension and descension collide — challenge the gods themselves.
 
 ### T8 Evolution Paths
 
-**[Warden Reaper](#warden-reaper) to [Supreme Warden Reaper](#supreme-warden-reaper)** — Unmatched durability and rapid regeneration
+**[Warden Reaper](#reaper-evolution) to [Supreme Warden Reaper](#reaper-evolution)** — Unmatched durability and rapid regeneration
 
-**[Warden Giga](#warden-giga) to [Supreme Warden Giga](#supreme-warden-giga)** — Pinnacle of raw strength
+**[Warden Giga](#ancient-evolution) to [Supreme Warden Giga](#ancient-evolution)** — Pinnacle of raw strength
 
-**[Alpha T-Rex](#alpha-trex) to [Supreme Alpha T-Rex](#alpha-trex-ascend)** — Unparalleled burst damage and AoE roar scaling
+**[Alpha T-Rex](#legendary-evolution) to [Supreme Alpha T-Rex](#legendary-evolution)** — Unparalleled burst damage and AoE roar scaling
 
 ### God Trial Requirements
 
@@ -1074,7 +1074,7 @@ The Ice Titan line has three true variants, each a massive leap in power.
 **Notes:**
 
 - Can equip Advanced Excellent Boss Armor and Unreal Evo Cube
-- Excels at [Beta Supply Drops](#beta-supply-drop)
+- Excels at [Beta Supply Drops](#supply-drops)
 
 ### Degenerate Ice Titan
 
@@ -1088,7 +1088,7 @@ The Ice Titan line has three true variants, each a massive leap in power.
 
 **Kill Count Requirement:** Must reach 1,000 kills (wild dinos +1, corrupted +2, T4 Ancients +10) before progressing
 
-**Notes:** Excels at [Alpha Supply Drops](#alpha-supply-drop)
+**Notes:** Excels at [Alpha Supply Drops](#supply-drops)
 
 ### Flame / Lightning Ice Titan
 
@@ -1096,7 +1096,7 @@ The Ice Titan line has three true variants, each a massive leap in power.
 
 **Result:** 50% chance to evolve into either Flame Ice Titan or Lightning Ice Titan — both are devastating siege tames
 
-**Notes:** Excels at [God Supply Drops](#god-supply-drops)
+**Notes:** Excels at [God Supply Drops](#supply-drops)
 
 > Each stage demands heavy preparation. Stockpile mats, bring backup tames, prepare freeze counters.
 
