@@ -15,7 +15,7 @@ Water Tiers (Non-Progression): Pacific — Alpha equivalent | Atlantic — Apex 
 
 ## getting-started
 
-Focus on building a core crafting base, preparing for early hunts, and securing resources for future tiers.
+Build core crafting structures and prepare for early hunts.
 
 ### Core Crafting Structures
 
@@ -31,7 +31,7 @@ All loot rolls randomized stat bonuses — armor, weapons, tools, saddles, rings
 
 ## alpha
 
-Alpha-tier creatures mark your first major power spike. Their proximity buff increases damage and resistance for nearby dinos.
+Proximity buff increases damage and resistance for nearby dinos.
 
 > STRUCTURE DAMAGE: Wood
 
@@ -69,7 +69,7 @@ Skeletal variants require Alpha/Apex Boss Kibble to tame and drop Keratin and Bl
 
 ## apex
 
-After mastering Alpha, progression moves into the Apex tier. Apex creatures provide increased strength and durability.
+Increased strength and durability over Alpha tier.
 
 > STRUCTURE DAMAGE: Stone
 
@@ -93,7 +93,7 @@ Establish a reliable feather source before progressing — required for mid- to 
 
 ## elemental
 
-After defeating the Apex Troll you unlock Elemental Kibble. The Elemental tier revolves around exploiting strengths and weaknesses between types — team composition is critical.
+Exploit elemental strengths and weaknesses — team composition is critical.
 
 > STRUCTURE DAMAGE: Stone
 
@@ -105,7 +105,9 @@ Elemental creatures drop their respective cores (e.g. Volcanic Core, Hydro Core)
 
 ### Elemental Matchups
 
-Storm — Strong vs Water | Weak to Earth | Mobile power generation, scales range with melee
+![Elemental Wheel](images/elemental_wheel_nemesis.png)
+
+Storm — Strong vs Hydro | Weak to Earth | Mobile power generation, scales range with melee
 
 Volcanic — Strong vs Frost | Weak to Hydro | Cook meat in inventory, mobile forge, temperature resist
 
@@ -137,11 +139,15 @@ Can be crafted at the Primal Bench and challenged in any order.
 
 ## plasma-ghost-plague
 
-The next trio of Nemesis tiers introduce corruption effects, unstable energy forms, and powerful spectral creatures.
+Only the Plague Boss is required to progress to Bionic.
 
 > STRUCTURE DAMAGE: Stone
 
-Internal interaction triangle: Plague beats Plasma | Plasma beats Ghost | Ghost beats Plague
+### Type Triangle
+
+![Plasma Ghost Plague Triangle](images/pgp_triangle.png)
+
+Plague beats Plasma | Plasma beats Ghost | Ghost beats Plague
 
 ### Plasma
 
@@ -180,8 +186,6 @@ Creatures influenced by virulent corruption. Plague beats Plasma. Spreads a viru
 
 ## bionic
 
-One of the most powerful stages in Primal Nemesis.
-
 > STRUCTURE DAMAGE: Stone
 
 ### Boss Chain
@@ -204,8 +208,6 @@ Baryonyx | Doedicurus | Enforcer | Megatherium | Procoptodon | Rex
 **Bionic Bosses:** Terminator Giga | Swordmaster | Broodmother
 
 ## celestial-demonic
-
-With Elemental and Bionic conquered, your next leap is into the Demonic and Celestial tiers.
 
 > STRUCTURE DAMAGE: Tek (AoE attacks)
 
@@ -238,7 +240,7 @@ KO and tame Demonic and Celestial Bees. Convert them into a Beehive via radial m
 
 ## godly
 
-The final step in Nemesis progression. Health potions recommended due to high stats and projectile damage.
+Health potions recommended due to high stats and projectile damage.
 
 Six Godly Bosses roam the map — only one of each at a time. You will be notified when one spawns. On death each boss summons a tameable version of itself.
 
