@@ -47,6 +47,12 @@ body{background:var(--bg);color:var(--text);font-family:'Rajdhani',sans-serif;fo
 @media(max-width:768px){#sidebar{display:none;}#main{margin-left:0;padding:60px 20px 80px;}.mobile-back{display:block;}}
 .mobile-back{display:none;position:fixed;top:0;left:0;right:0;background:var(--surface);border-bottom:1px solid var(--border);padding:12px 20px;z-index:100;}
 .mobile-back a{color:var(--orange);text-decoration:none;font-size:14px;font-weight:600;}
+.creature-tier{margin-bottom:32px;}
+.creature-tier-title{font-family:'Orbitron',monospace;font-size:11px;letter-spacing:2px;color:var(--orange);text-transform:uppercase;padding-bottom:8px;border-bottom:1px solid var(--border);margin-bottom:14px;}
+.creature-grid{display:flex;flex-wrap:wrap;gap:5px;}
+.creature{background:var(--card);border:1px solid var(--border);padding:4px 10px;font-size:11px;font-weight:600;color:var(--text);border-radius:3px;}
+.creature.boss{border-color:var(--orange);color:var(--orange);}
+.creature.loot{border-color:#fbbf24;color:#fbbf24;}
 </style>
 </head>
 <body>
@@ -97,6 +103,62 @@ const SECTION_LABELS={
   'mod-compatibility':'Mod Compatibility',
   'faq':'FAQ'
 };
+
+function renderCreatureList(section){
+  const div=document.createElement('div');div.className='section';div.id='creature-list';
+  const titleDiv=document.createElement('div');titleDiv.className='section-title';titleDiv.textContent='Creature List';div.appendChild(titleDiv);
+  const inner=document.createElement('div');
+
+  // Parse the markdown into tiers
+  let currentTier=null;
+  let currentCreatures=[];
+  const tiers=[];
+
+  section.lines.forEach(line=>{
+    if(line.startsWith('### ')){
+      if(currentTier){tiers.push({title:currentTier,creatures:currentCreatures});}
+      currentTier=line.slice(4).trim();
+      currentCreatures=[];
+    }else if(line.trim() && !line.startsWith('#') && currentTier){
+      // Parse comma-separated creatures or special format
+      if(line.startsWith('**Boss')||line.startsWith('**Tames')){
+        currentCreatures.push({type:'label',text:line.replace(/\*\*/g,'')});
+      }else{
+        const names=line.split(',').map(n=>n.trim()).filter(n=>n);
+        names.forEach(n=>currentCreatures.push({type:'creature',name:n}));
+      }
+    }
+  });
+  if(currentTier){tiers.push({title:currentTier,creatures:currentCreatures});}
+
+  // Render each tier
+  tiers.forEach(tier=>{
+    const tierDiv=document.createElement('div');tierDiv.className='creature-tier';
+    const tierTitle=document.createElement('div');tierTitle.className='creature-tier-title';tierTitle.textContent=tier.title;
+    tierDiv.appendChild(tierTitle);
+
+    let grid=document.createElement('div');grid.className='creature-grid';
+    tier.creatures.forEach(c=>{
+      if(c.type==='label'){
+        if(grid.children.length){tierDiv.appendChild(grid);grid=document.createElement('div');grid.className='creature-grid';}
+        const label=document.createElement('div');label.style.cssText='font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#f0a020;margin:14px 0 8px;width:100%;';
+        label.textContent=c.text;tierDiv.appendChild(label);
+      }else{
+        const el=document.createElement('div');
+        el.className='creature';
+        if(tier.title.toLowerCase().includes('loot'))el.className+=' loot';
+        if(tier.title.toLowerCase().includes('boss'))el.className+=' boss';
+        el.textContent=c.name;
+        grid.appendChild(el);
+      }
+    });
+    if(grid.children.length)tierDiv.appendChild(grid);
+    inner.appendChild(tierDiv);
+  });
+
+  div.appendChild(inner);
+  return div;
+}
 
 function buildNav(){
   const nav=document.getElementById('nav');
@@ -160,7 +222,11 @@ async function loadGuide(){
     if(baseline){const box=document.createElement('div');box.className='baseline-box';box.innerHTML=marked.parse(baseline.lines.join('\n'));hero.appendChild(box);}
     contentEl.appendChild(hero);
     sections.filter(s=>s.id!=='baseline').forEach(section=>{
-      contentEl.appendChild(renderSection(section));
+      if(section.id==='creature-list'){
+        contentEl.appendChild(renderCreatureList(section));
+      }else{
+        contentEl.appendChild(renderSection(section));
+      }
     });
     const footer=document.createElement('div');footer.className='guide-footer';
     footer.textContent='Guide maintained by Rokitur — RokiArkNet';
