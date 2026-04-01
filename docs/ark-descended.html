@@ -354,6 +354,9 @@ async function loadGuide(){
       html=html.replace(/<blockquote>\s*<p>\s*STRUCTURE DAMAGE:/g,'<div class="struct-badge">STRUCTURE DAMAGE:').replace(/N\/A<\/p>\s*<\/blockquote>/g,'N/A</div>');
       html=html.replace(/<blockquote>\s*<p>\s*WARNING:/g,'<div class="warn">').replace(/<\/p>\s*<\/blockquote>/g,'</div>');
       html=html.replace(/<blockquote>\s*<p>/g,'<div class="tip">').replace(/<\/p>\s*<\/blockquote>/g,'</div>');
+      // Add IDs to h3 and h4 for deep linking
+      html=html.replace(/<h3>([^<]+)<\/h3>/g,(m,t)=>`<h3 id="${t.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/-+$/,'')}">${t}</h3>`);
+      html=html.replace(/<h4>([^<]+)<\/h4>/g,(m,t)=>`<h4 id="${t.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/-+$/,'')}">${t}</h4>`);
       sec.innerHTML=`<h2 class="section-title">${title}</h2>`+html;
       content.appendChild(sec);
     });
