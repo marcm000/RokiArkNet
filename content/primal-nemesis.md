@@ -175,15 +175,6 @@ Creatures influenced by virulent corruption. Plague beats Plasma. Spreads a viru
 
 **Boss: Plague Boss** — Defeating unlocks Bionic Kibble.
 
-### Creatures
-**Plasma:** Argent | Bigfoot | Dodorex | Toad | Mantis | Megaraptor | Raptor | Rex | Trike | Cerato | Direbear | Direwolf | Equus | Gigantoraptor | Ptero | Ravager | Terrorbird | Thyla
-
-**Ghost:** Berserk Dragon | Catfish | Cnidaria | Dragon | Electrophorus | Hammerhead | Liopleurodon | Manta | Megalodon | Mosa | Piranha | Plesio | Saber | Squid | Swordfish | Wyvern
-
-**Plague:** Cerato | Direbear | Direwolf | Equus | Gigantoraptor | Ptero | Raptor | Ravager | Rex | Saber | Terrorbird | Thyla | Trike
-
-**Pixies (special):** Bulbdog | Jerboa | Otter
-
 ## bionic
 
 > STRUCTURE DAMAGE: Stone
@@ -201,11 +192,6 @@ Defeat bosses to acquire both Bionic Skulls. Then craft the Bionic God Scroll at
 Unlocked by defeating the Bionic God. Only station that can refine Mithril Ore → Mithril Ingots and Gold Ore → Gold Ingots.
 
 **Power Requirements** — Storm Essence | Volcanic Essence | Or a nearby Storm creature
-
-### Creatures
-Baryonyx | Doedicurus | Enforcer | Megatherium | Procoptodon | Rex
-
-**Bionic Bosses:** Terminator Giga | Swordmaster | Broodmother
 
 ## celestial-demonic
 
@@ -233,11 +219,6 @@ KO and tame Demonic and Celestial Bees. Convert them into a Beehive via radial m
 
 **Rewards** — Demonic / Celestial Boss Skull | Boss Essence | Celestial and Demonic Seeds (for Godly Kibble)
 
-### Creatures
-**Celestial:** Argentavis | Broodmother | Griffin | Parasaur | Queen Bee | Rock Elemental | Thylacoleo | Wyvern
-
-**Demonic:** Argentavis | Broodmother | Ceratosaurus | Featherlight | Gigantoraptor | Griffin | Pegasus | Phoenix | Queen Bee | Thorny Dragon | Wyvern
-
 ## godly
 
 Health potions recommended due to high stats and projectile damage.
@@ -249,9 +230,6 @@ Six Godly Bosses roam the map — only one of each at a time. You will be notifi
 Collect tokens from all six Godly Bosses to summon Nemesis — the ultimate early-game fight. Conquer it to complete the early-game arc.
 
 **Rewards** — Godly Potions | Max XP Potions | Godly Boss Essence | Godly Boss Skull
-
-### Creatures
-Armored Tiger | Broodmother | Karkinos | Rockdrake | Sheep | Trike
 
 ## loot-bosses
 
