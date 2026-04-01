@@ -195,7 +195,7 @@ Difficulty spike — grueling even with Advanced Excellent Boss Armor.
 
 ### Sin of Element (Third Sin)
 
-Fought after upgrading your Excellent Boss with the Enhanced Excellent Boss Cube. With the Unreal buff active, this fight is generally less punishing than Sin of Power.
+Requires Unreal Excellent Boss. Less punishing than Sin of Power.
 
 **Rewards:**
 
@@ -205,7 +205,7 @@ Fought after upgrading your Excellent Boss with the Enhanced Excellent Boss Cube
 
 ### The Oracle Boss
 
-The Oracle is the capstone encounter of the Excellent Path, unlocked after defeating the Three Sins.
+The Oracle is the capstone of the Excellent Path.
 
 **Summoning Process:**
 
@@ -229,19 +229,17 @@ The Oracle is the capstone encounter of the Excellent Path, unlocked after defea
 
 ## t3-divine-devilish
 
-With the Oracle Boss defeated, you enter Tier 3, where Divine and Devilish creatures mark a new power level.
+Divine and Devilish creatures mark a new power level.
 
 > STRUCTURE DAMAGE: N/A
 
 ### T3 Progression Paths
 
-At Tier 3, multiple progression paths open up:
+**[Beta Supply Drops](#supply-drops)** — Ancient Token Clusters and resources
 
-**[Beta Supply Drops](#supply-drops)** — Five-wave loot runs for Ancient Token Clusters and resources
+**[The Infected Line](#infected-evolution)** — Dimorph → Ptero → Infected Divine Argentavis
 
-**[The Infected Line](#infected-evolution)** — Dimorph to Ptero to Infected Divine Argentavis
-
-**[Legendary Path](#legendary-evolution)** — Begins with Alpha Dodorexy toward Alpha Trex Ascend
+**[Legendary Path](#legendary-evolution)** — Alpha Dodorexy → Alpha Trex Ascend
 
 > See Evolution Paths sections for detailed progression guides: [Reaper](#reaper-evolution), [Ice Titan](#ice-titan-evolution), [Managarmr](#managarmr-evolution), [Legendary](#legendary-evolution), [Infected](#infected-evolution), [Ancient](#ancient-evolution).
 
@@ -253,21 +251,21 @@ At Tier 3, multiple progression paths open up:
 
 **Descended Mega Reaper** — Summoned via War Generator, required for [Reaper Evolution](#reaper-evolution)
 
-**Wild Alpha DodoRexy** — Chance to drop Fertilized Legendary Dodo Egg, which hatches a Little DodoRex for [passive Legendary Essence production](#passive-production)
+**Wild Alpha DodoRexy** — Chance to drop Fertilized Legendary Dodo Egg for [passive Legendary Essence production](#passive-production)
 
 ### The Divine & Devilish Divide
 
-Tier 3 passes quickly, but it's a crucial turning point. Your main goal is farming Divine and Devilish Souls to craft T3 Kibble and prepare for the Guardians.
+Farm Divine and Devilish Souls for T3 Kibble and T4 prep.
 
 > Divine and Devilish Bosses can also appear as rare wild encounters.
 
-Both encounters can be handled from range using the Devilish Phoenix, whose sustained fire damage and flight mobility make it ideal.
+Devilish Phoenix handles both from range with sustained fire damage.
 
 **Divine Guardian** — Drops Divine Essence
 
 **Devilish Guardian** — Drops Devilish Essence
 
-Divine and Devilish Essence is used to tame your Alpha DodoRexy — a key midgame power jump.
+Use Divine/Devilish Essence to tame Alpha DodoRexy — a key midgame power jump.
 
 **Defeating both Guardians grants:**
 
@@ -287,33 +285,31 @@ These armor pieces can be equipped onto Divine and Devilish creatures:
 
 ## t4-celestial-abyssal
 
-Where mortals meet the cosmos — defy gods, conquer the deep, and claim energy eternal.
-
 > STRUCTURE DAMAGE: N/A
 
-Tier 4 marks a massive leap in power and complexity. With your Divine and Devilish creatures equipped with T3 armor, you're ready to challenge the heavens and the depths.
+Equip T3 armor on your Divine/Devilish creatures to begin T4.
 
 ### Celestial & Abyssal Hunts
 
-Hunt wild Celestial and Abyssal creatures to collect Souls, Essences, and Hides — essential materials for boss summons and evolution crafting.
+Hunt wild Celestials and Abyssals for Souls, Essences, and Hides.
 
 > Begin with mid-tier Celestials and Abyssals to safely gather materials before targeting elite versions.
 
-At this time, you can summon the Descended Degenerate Managarmr from the War Generator to evolve your [Descended Managarmr](#taming-a-descended-managarmr).
+Summon Descended Degenerate Managarmr from War Generator to begin [Evolving to Degenerate Form](#evolving-to-degenerate-form).
 
 ### Celestial & Abyssal Boss Encounters
 
-Use the War Generator to summon and defeat seven Celestial Bosses and seven Abyssal Bosses.
+Summon and defeat seven Celestial Bosses and seven Abyssal Bosses.
 
 **Celestial Bosses** — Require Divine resources
 
 **Abyssal Bosses** — Require Devilish resources
 
-Each boss unlocks its respective Evo Core Engram upon defeat. Craft Evo Cores using their Souls to evolve Excellent Boss-tier creatures into Celestial or Abyssal forms.
+Each boss unlocks its Evo Core Engram. Craft with Souls to evolve Excellent Bosses into Celestial/Abyssal forms.
 
 **Recommended Strategy:** Start with a Devilish Rex, Devilish Phoenix, or Unreal Excellent DodoReaper. Avoid deadly AOE attacks.
 
-These T4 forms become your frontline Warfighters — strong enough for Element Bosses but not yet shielded.
+T4 forms handle Element Bosses but lack shields.
 
 > Abyssal Energy and Celestial Energy Farming: Spawn Abyssal Dodoreaper and Celestial Rock Drake for Energy. Both drop 1 Energy Box to inventory plus 6-12 Boxes from lootbags.
 
@@ -327,9 +323,9 @@ These T4 forms become your frontline Warfighters — strong enough for Element B
 
 ### Element Bosses
 
-Face the final T4 challenges — Celestial Element and Abyssal Element — summoned through the War Generator.
+Celestial Element and Abyssal Element are the final T4 challenges.
 
-**Standard Strategy:** Assemble an army of Abyssal and Celestial creatures with maxed saddles. Abyssal DodoReaper is the tankiest Havoc creature.
+**Standard Strategy:** Army of Abyssal/Celestial creatures with maxed saddles. Abyssal DodoReaper is tankiest.
 
 **Saddle Quality Caps:**
 
@@ -354,49 +350,43 @@ Prep your evolutions first:
 
 **Infected Celestial Wyvern (Ranged)** — Trap the Element boss with pillars or terrain. Bomb from range with Blast ability, weave in fire breaths during cooldown. Expect 2-3 Blast cycles to finish.
 
-With Element Bosses defeated, you unlock Celestial/Abyssal Shield engrams and Element Essences to forge Shields in the Descend Smithy.
+Defeating Element Bosses unlocks Shield engrams and Element Essences.
 
 > Without Shields, survival in Tier 5 is impossible — they're mandatory for damaging and resisting T5 encounters.
 
 ## t5-warchiefs
 
-Tier 5 marks the entry into the Warchief Trials and the path toward Havoc and Spectral evolution.
+Entry into Warchief Trials and the path toward Havoc/Spectral evolution.
 
 > STRUCTURE DAMAGE: N/A
 
 ### T5 Progression Paths
 
-**[Degenerate Ice Titan](#degenerate-ice-titan)** — Evolve your Descended Ice Titan, then imbue with Flame or Lightning for unparalleled siege capability
+**[Degenerate Ice Titan](#degenerate-ice-titan)** — Imbue with Flame or Lightning for siege capability
 
-**[Deeply Degenerate Managarmr](#deeply-degenerate-managarmr)** — Craft Evo Core for high-speed burst-damage flier
+**[Deeply Degenerate Managarmr](#deeply-degenerate-managarmr)** — High-speed burst-damage flier
 
-**[Alpha Supply Drops](#supply-drops)** — Unlock Alpha-tier loot runs for rare crafting resources
+**[Alpha Supply Drops](#supply-drops)** — Alpha-tier loot runs
 
-**[Alpha DodoRexy Evolution](#alpha-dodorexy)** — Advance to Alpha T-Rex using Order and Chaos Warchief Souls
+**[Alpha DodoRexy Evolution](#alpha-trex)** — Advance to Alpha T-Rex using Order and Chaos Warchief Souls
 
 ### Eternal Light Armor
 
-Defeating T5 bosses unlocks the Eternal Light Armor set for your survivor — replaces Advanced Flak Armor with significantly higher protection and powerful passive bonuses. Mandatory for Guardian encounters.
+T5 bosses unlock Eternal Light Armor — higher protection and passive bonuses. Mandatory for Guardians.
 
 ### The Warchiefs of Order and Chaos
 
-With your Celestial and Abyssal Shields from T4 equipped, you're ready for T5 Warchiefs. These shields are mandatory.
-
-Your T4 warfighters (Celestial & Abyssal variants of Excellent Bosses) form the backbone of your army. An Alpha Tyrannosaurus serves as a powerful alternative.
+Equip T4 Shields (mandatory). Use T4 warfighters or Alpha Tyrannosaurus.
 
 > WARNING: The Ancient Evo Giga cannot be used against Warchiefs — it receives a debuff causing it to "cower in fear."
 
 ### Alternative Paths
 
-**[Primordial Reaper](#primordial-reaper) Evolution** — Evolve your Alpha King or Queen Reaper into the Primordial Reaper, one of the strongest tanks available.
+**[Primordial Reaper](#primordial-reaper) Evolution** — Evolve your Alpha King or Queen Reaper into the Primordial Reaper.
 
-**[Alpha Tyrannosaurus](#alpha-trex) Evolution** — Evolve your Alpha DodoRexy into the Alpha Tyrannosaurus for pure destructive output.
-
-> Choose based on playstyle — Primordial Reaper dominates through resilience, Alpha Tyrannosaurus embodies relentless offense.
+**[Alpha Trex](#alpha-trex) Evolution** — Evolve your Alpha DodoRexy into the Alpha Trex.
 
 ### Warchief Battle Tips
-
-Warchief encounters are unforgiving with powerful AOE attacks.
 
 - Avoid all AOE warnings displaying "Dangerous Attack Incoming"
 - Maintain distance and apply movement discipline
@@ -404,7 +394,7 @@ Warchief encounters are unforgiving with powerful AOE attacks.
 
 ### Order Warchiefs
 
-Summoned via War Generator Order tab. Each features a unique taming method via its Scion form.
+Summoned via War Generator Order tab. Each has a unique Scion taming method.
 
 ### Eternal Warrior
 
@@ -414,10 +404,8 @@ Summoned via War Generator Order tab. Each features a unique taming method via i
 
 **Taming Method:**
 
-1. Consume the Challenger's Eternal Banana before engaging the Scion
-2. Kill the Scion — at ~10% HP it auto-tames
-
-**Result:** Gain the Scion of Eternal Warrior
+1. Consume Challenger's Eternal Banana before engaging Scion
+2. Kill Scion — auto-tames at ~10% HP
 
 **Rare Reward:** Eternal Sword
 
@@ -432,9 +420,7 @@ Summoned via War Generator Order tab. Each features a unique taming method via i
 **Taming Method:**
 
 1. Craft Kitty Teaser (Descend Smithy)
-2. Place on hotbar, passively feed to Scion — instant tame
-
-**Result:** Gain the Scion of Tiger Emperor
+2. Passively feed to Scion — instant tame
 
 **Abilities:** Right Click — Conal light attack (stronger under Emperor Buff) | C — Light AoE under buff / Conal unbuffed | Ctrl — 60s Emperor power-up
 
@@ -447,9 +433,7 @@ Among the most difficult Warchiefs.
 **Taming Method:**
 
 1. Kill the Tyrant
-2. Craft Summon Tamed Scion of Annihilation Tyrant at Descend Smithy using the Crown
-
-**Result:** Gain the Scion of Annihilation Tyrant
+2. Craft Summon Tamed Scion at Descend Smithy using the Crown
 
 **Rare Reward:** Tyrant Shotgun
 
@@ -467,11 +451,8 @@ Summoned via War Generator Chaos tab.
 
 **Taming Method:**
 
-1. Consume the Challenger's Dying Feather before engaging the Scion
-2. "Challenge accepted" confirms the Scion is tameable
-3. Kill the Scion — auto-tames at 10% HP
-
-**Result:** Gain the Scion of Dying Light
+1. Consume Challenger's Dying Feather before engaging Scion
+2. Kill Scion — auto-tames at 10% HP
 
 **Rare Reward:** Dying Rifle
 
@@ -485,10 +466,8 @@ The strongest Warchief.
 
 **Taming Method:**
 
-1. Defeat the Galaxy Dragon — Scion spawns
-2. Bring to ~20% HP — lands — passively feed Tribute to tame
-
-**Result:** Gain the Scion of Galaxy Dragon
+1. Defeat Galaxy Dragon — Scion spawns
+2. Bring to ~20% HP — lands — passively feed Tribute
 
 **Additional Drops:** Bionic Essence, Galaxy Essence
 
@@ -501,20 +480,18 @@ The strongest Warchief.
 **Taming Method:**
 
 1. Defeat Ultimasaurus
-2. Craft Summon Tamed Scion of Ultimasaurus at Descend Smithy using the Skull
-3. Consume to summon your tamed Scion
-
-**Result:** Gain the Scion of Ultimasaurus
+2. Craft Summon Tamed Scion at Descend Smithy using Skull
+3. Consume to summon tamed Scion
 
 ### Havoc & Spectral Ascension
 
 ### Descended Reactor Core
 
-The Descended Reactor Core is a crucial T5 progression item crafted in the Descended Smithy after obtaining souls from both Order and Chaos Warchiefs. It marks the transition into Havoc and Spectral tiers.
+Craft in Descended Smithy using Order and Chaos Warchief souls. Enables Havoc/Spectral spawns.
 
 **How It Works:**
 
-**Activation:** Place the Reactor Core in your mount's inventory and activate it. This applies a persistent world buff enabling Havoc and Spectral spawns when you kill qualifying Celestial or Abyssal creatures.
+**Activation:** Place in mount's inventory and activate. Killing Celestial/Abyssal creatures spawns Havoc/Spectral variants.
 
 **Duration:** The buff lasts indefinitely but is lost if you cryo the dino.
 
@@ -522,7 +499,7 @@ The Descended Reactor Core is a crucial T5 progression item crafted in the Desce
 
 ### Havoc & Spectral Resource Farming
 
-With the Reactor Core active, farm Havoc and Spectral creatures for:
+Farm Havoc and Spectral creatures for:
 
 **Havoc Orbs** — For Havoc Kibble and evolution cores
 
@@ -561,27 +538,23 @@ If you haven't defeated the Combat Dragon, do so now for Red Tributes needed for
 - Havoc Orbs for Havoc Kibble
 - Spectral Element for Spectral Kibble
 
-The Swamp Master is a unique T5 encounter from War Generator Special tab.
+Unique T5 encounter from War Generator Special tab.
 
 **Taming Method:**
 
-1. Defeat the Swamp Master — Scion spawns
-2. Knock out the Scion (Descended Fabricated Sniper or Advanced Tranq Pike)
+1. Defeat Swamp Master — Scion spawns
+2. Knock out Scion (Descended Fabricated Sniper or Advanced Tranq Pike)
 3. Feed Spectral or Havoc Kibble
-
-**Result:** Gain the Scion of Swamp Master
 
 **Abilities:** Right Click — Frontal web attack | C — Ranged orb attack | X — Cycle ranged attack when Poison enabled | Ctrl — Swamp Master Power-Up | Radial Menu — Enable/disable Poison Attack (applies devastating torpor)
 
 ### Havoc & Spectral Taming & Progression
 
-> The Swamp Master Warchief is the most effective method for knocking out Havoc and Spectral creatures — its poison attacks deliver high torpor from range.
+> Swamp Master's poison attacks deliver high torpor from range — best for knocking out Havoc/Spectral creatures.
 
 > WARNING: Even with max saddles, Havoc and Spectral creatures remain extremely vulnerable until they reach Ultimate Form.
 
 ### Havoc Progression to Ultimate Form
-
-Havoc creatures require Havoc Progression to reach Ultimate form.
 
 **How it works:**
 
@@ -590,21 +563,17 @@ Havoc creatures require Havoc Progression to reach Ultimate form.
 - Higher target HP = more progression value
 - Higher your Havoc's HP = more progression required
 
-**Result:** At 100% Havoc Progression, the Havoc evolves into Ultimate form with massive damage, defense, and 90% damage reduction. Gains a unique Ultimate Attack.
+At 100% progression: Ultimate form with 90% damage reduction and unique Ultimate Attack.
 
 > Get a mating pair first. Breed Havocs, then progress offspring to avoid losing originals.
 
 ### Spectral Progression to Ultimate Form
 
-**How it works:**
-
-- Hunt 10 wild creatures of the same Spectral type as your own
-
-**Result:** Ultimate variant with stronger stats and 85% damage reduction.
+Hunt 10 wild creatures of the same Spectral type. Result: Ultimate form with 85% damage reduction.
 
 ### Havoc & Spectral Armor Scaling
 
-Instead of saddles (for most), they use upgradeable natural armor:
+Most use upgradeable natural armor instead of saddles:
 
 **Armor Stones:** Killing wild Havocs/Spectrals with natural armor yields Armor Stones. Each stone fed increases natural armor by +50, up to 800 max.
 
@@ -614,11 +583,11 @@ Instead of saddles (for most), they use upgradeable natural armor:
 
 ## t6-bionic
 
-Tier 6 introduces Bionic Bosses — cybernetic juggernauts bridging biological evolution and machine perfection.
+Bionic Bosses bridge T5 Warchiefs and T7 Wardens.
 
 > STRUCTURE DAMAGE: N/A
 
-You'll also have access to the Descended Warchief Reactor, crafted using Warchief Souls, Havoc Orbs, and Spectral Elements. Consuming it in your Warchief grants the "Invincible" moniker with dramatically boosted defense.
+Descended Warchief Reactor (Warchief Souls + Havoc Orbs + Spectral Elements) grants "Invincible" with boosted defense.
 
 ### Bionic Bosses
 
@@ -632,29 +601,25 @@ Each Bionic Boss drops:
 
 ### The Bionic Factory
 
-All Bionic Essences are processed in the Bionic Factory.
-
 **How it Works:**
 
-1. Insert the Bionic Boss Essence of the creature you want
-2. Add approximately 1,000 Descended Ingots
-3. Start crafting — every 10% completion, manually click the Factory to continue
-4. Total time: approximately 20-30 minutes
-5. Factory produces a tamed Bionic version
+1. Insert Bionic Boss Essence + ~1,000 Descended Ingots
+2. Start crafting — click Factory every 10% to continue
+3. ~20-30 minutes produces tamed Bionic
 
 **Example:** Bionic Quetzal Essence + Descended Ingots = tamed Bionic Quetzal
 
 ### Role of T6
 
-Tier 6 bridges Warchiefs (T5) and Wardens (T7). Bionics function as mechanical siege engines, but Havoc and Spectral creatures remain valuable for farming T6 Bosses.
+Bionics are mechanical siege engines. Havoc/Spectral creatures remain valuable for farming T6.
 
 > T7 recipes depend on T6 resources — keep Havoc and Spectral farms active.
 
-**Recommended Strategy:** Use your Alpha T-Rex after receiving the Legendary Raid boost. Its post-Raid power spikes allow it to obliterate Bionic Bosses while withstanding heavy barrages.
+**Recommended Strategy:** Alpha T-Rex with Legendary Raid boost obliterates Bionic Bosses.
 
 ## t7-wardens
 
-With Warchiefs and Elemental Gods behind you, Tier 7 marks entry into the Warden Trials.
+Entry into the Warden Trials.
 
 > STRUCTURE DAMAGE: N/A
 
@@ -668,7 +633,7 @@ These evolutions require Warden Essences and Legacy items from the Warden Trials
 
 ### Warden Encounters
 
-Craft and summon Ascended Little Dodos & Descended Little Dodos in the War Generator to spawn their Wardens (sometimes appear wild). Defeating them grants Warden Essences for crafting Supreme Wardens.
+Summon Ascended/Descended Little Dodos from War Generator to spawn Wardens (sometimes appear wild). Defeating them grants Warden Essences.
 
 **Ascended Wardens:**
 
@@ -701,8 +666,6 @@ Craft and summon Ascended Little Dodos & Descended Little Dodos in the War Gener
 - Carry plenty of potions
 
 ### Supreme Warden Reaper
-
-The Supreme Warden Reaper is relentless with a punishing second phase.
 
 **Mechanics:** At 0 HP, the Reaper revives powered up with increased damage and larger shield. Second phase is far deadlier — conserve resources.
 
@@ -738,7 +701,7 @@ Then use your Warden Reaper against the Supreme Warden Giga — but trap it stra
 
 ## t8-god-trials
 
-Witness ascension and descension collide — challenge the gods themselves.
+Challenge the gods using opposite-path Warchiefs.
 
 > STRUCTURE DAMAGE: N/A
 
@@ -835,11 +798,11 @@ Every Ascend or Descend grants one corresponding Essence. These are permanent cr
 
 ## t9-dark-seals
 
-Tier 9 introduces Dark Seal challenges — a three-part sequence of boss fights before crafting the Dark Altar Summon Cube.
+Three Seal boss fights grant fragments to craft the Dark Altar Summon Cube.
 
 > STRUCTURE DAMAGE: N/A
 
-Each Seal grants a unique fragment. Any two fragments can combine to craft the Cube. These Seals test raw damage, precision, and adaptability.
+Any two of the three fragments combine to craft the Cube.
 
 ### The Three Seals
 
@@ -877,7 +840,7 @@ After obtaining any two Seal Fragments, craft the Dark Altar Summon Cube in the 
 
 ### The Beasts
 
-The T9 Beasts — Beast of Darkness, Beast of Oblivion, and Beast of Desperation — are ultimate endgame challenges. They can only be completed at night through the Dark Altar Ritual.
+Summoned via Dark Altar Ritual. Can only be damaged at night.
 
 ### Priming the Dark Altar
 
@@ -957,7 +920,7 @@ A massive flying boss with extreme durability and high evasion. Auto-tames upon 
 
 ## t10-dream
 
-Dream, the Primordial Descension, represents the ultimate confrontation — the culmination of every evolution, essence, and sacrifice.
+The final boss encounter.
 
 > STRUCTURE DAMAGE: N/A
 
@@ -986,7 +949,7 @@ Dream, the Primordial Descension, represents the ultimate confrontation — the 
 
 ## reaper-evolution
 
-The Reaper line evolves through several distinct stages, each requiring unique mechanics, fights, or sacrifices. Unlike most creatures, Reapers are born through impregnation and progress via charge mechanics, tokens, and boss drops.
+Born through impregnation, Reapers progress via charge mechanics, tokens, and boss drops.
 
 ### Descended Reaper Prince/Princess
 
@@ -1052,7 +1015,7 @@ The Reaper line evolves through several distinct stages, each requiring unique m
 
 ## ice-titan-evolution
 
-The Ice Titan line has three true variants, each a massive leap in power.
+Three variants with significant power increases at each stage.
 
 ### Descended Ice Titan
 
@@ -1089,8 +1052,6 @@ The Ice Titan line has three true variants, each a massive leap in power.
 
 ## managarmr-evolution
 
-The Degenerate Managarmr is a powerful T4 evolution of the Descended Managarmr.
-
 ### Taming a Descended Managarmr
 
 Find and knock out a Descended Managarmr using Tranq Darts or Rifles. Tame with Excellent Kibble — no hunger potions required.
@@ -1115,9 +1076,7 @@ The evolution resets level scaling to base but retains bred stats — maximize p
 
 ### Deeply Degenerate Managarmr
 
-The Degenerate Icejumper Enhance Core transforms the Degenerate Managarmr into a near-unstoppable force.
-
-**Crafted at:** Descend Smithy
+Crafted at Descend Smithy using Degenerate Icejumper Enhance Core.
 
 **Key Requirements:**
 
@@ -1130,7 +1089,7 @@ The Degenerate Icejumper Enhance Core transforms the Degenerate Managarmr into a
 
 ## legendary-evolution
 
-The Legendary line begins with Alpha Dodorexy and culminates in the Alpha Trex Ascend, one of the strongest T8 powerhouses.
+Progresses from Alpha Dodorexy to Alpha Trex Ascend (T8).
 
 > Evolutions don't carry over stats but retain bred stat points. Breed for highest base stats before evolving.
 
@@ -1206,7 +1165,7 @@ After defeating 30 Stalkers during active Legendary Challenge, the Legendary Dra
 
 ## infected-evolution
 
-The Infected Line begins at T3 and provides a parallel power path. Each stage builds toward one of the most powerful aerial T4 siege creatures.
+Parallel aerial power path culminating in Infected Celestial Wyvern (T4).
 
 > Evolutions don't carry over stats but retain bred stat points. Breed for highest base stats before evolving.
 
@@ -1250,7 +1209,7 @@ All Infected creatures share the passive ability Infected Defensive, which has a
 
 ## ancient-evolution
 
-The Ancient Line unlocks at T3, evolving through multiple apex stages. Ancient creatures scale alongside Legendary and Infected lines, culminating in the Warden Giga.
+Progresses through multiple apex stages, culminating in Supreme Warden Giga.
 
 > Evolutions don't carry over stats but retain bred stat points. Breed for highest base stats before evolving.
 
