@@ -482,12 +482,11 @@ function showModal(tierName, creatureName){
   const key=tierName+':'+creatureName;
   const blueprint=SPAWN_DATA[key];
   if(!blueprint)return;
-  const cmd='admincheat summon "'+blueprint+'"';
   document.getElementById('modal-title').textContent=creatureName;
   document.getElementById('modal-tier').textContent=tierName;
-  document.getElementById('spawn-cmd').textContent=cmd;
+  document.getElementById('spawn-cmd').textContent=blueprint;
   document.getElementById('copy-btn').classList.remove('copied');
-  document.getElementById('copy-btn').textContent='Copy Command';
+  document.getElementById('copy-btn').textContent='Copy';
   document.getElementById('modal-overlay').classList.add('show');
 }
 
