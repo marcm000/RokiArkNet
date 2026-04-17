@@ -15,21 +15,21 @@ theme:
     - search.highlight
 
 nav:
-  - Home: index.html
+  - Home: index.md
   - Plugins:
-    - Overview: plugins/index.html
-    - EngramControl: plugins/engramcontrol.html
-    - DinoLoot: plugins/dinoloot.html
-    - TekUnlock: plugins/tekunlock.html
-    - DinoLevelOverride: plugins/dinoleveloverride.html
-    - RiderProtection: plugins/riderprotection.html
-    - ItemExchange: plugins/itemexchange.html
+    - Overview: plugins/index.md
+    - EngramControl: plugins/engramcontrol.md
+    - DinoLoot: plugins/dinoloot.md
+    - TekUnlock: plugins/tekunlock.md
+    - DinoLevelOverride: plugins/dinoleveloverride.md
+    - RiderProtection: plugins/riderprotection.md
+    - ItemExchange: plugins/itemexchange.md
   - Guides:
-    - Primal Nemesis: primal-nemesis.html
-    - Primal Chaos: primal-chaos.html
-    - Ark Descended: ark-descended.html
-    - Ark Supreme: ark-supreme.html
-    - Cataclysm 2.0: cataclysm-2.html
+    - Primal Nemesis: primal-nemesis.md
+    - Primal Chaos: primal-chaos.md
+    - Ark Descended: ark-descended.md
+    - Ark Supreme: ark-supreme.md
+    - Cataclysm 2.0: cataclysm-2.md
 
 markdown_extensions:
   - admonition
