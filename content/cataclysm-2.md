@@ -302,13 +302,13 @@ Craft different tame tokens until you can farm Ancient and Futuristic Fragments 
 - Tsunami Hide
 - Tsunami Feathers
 
-**Craft:** Tsunami Saddles (Coming Soon)
+**Saddles:** Tsunami Saddles released — see Equipment section.
 
 > Tsunami creatures have 30x damage and 30x health.
 
 ## loot-dinos
 
-Special creatures that drop valuable loot when killed.
+Special creatures that drop valuable loot when killed or harvested. Some are tameable resource-poopers.
 
 ### Treasure Goat
 
@@ -330,6 +330,31 @@ Drops Fish, Prime Fish, Cementing Paste, Polymer, Pearls, Blood.
 
 Drops all artifacts.
 
+### Loot Turkeys
+
+Kill-only — not tameable. Each variant has its own harvest component on its corpse. Tameable Turkeys are planned for Tier 11.
+
+- **Starter Kit Turkey** — drops a full starter kit (essentials and more)
+- **Farm Turkey** — Fresh Veggies and Crop Plot
+- **Builder Turkey** — building resources
+- **Element Turkey** — Element and other rare resources
+
+### Meat Dodo
+
+Tameable — kill or tame for Jerky.
+
+### Bunny Dodos
+
+Tameable resource creatures that wander and drop materials passively.
+
+- **Bunny Dodo - Paste** — drops Cement Paste
+- **Bunny Dodo - Narcotic** — drops Narcotic
+- **Bunny Dodo - Stimulant** — drops Stimulant
+
+### Tidal Land Jelly
+
+T2 Tidal-tier creature. Tameable, rideable, and breedable. Killed and harvested for **Biotoxin** — alternative to ocean Cnidaria for maps with poor Jellyfish spawns. Note: does not produce Tidal Fluid.
+
 ## tranqs
 
 ### Melee Tranqs
@@ -348,12 +373,58 @@ Drops all artifacts.
 | Arrow 100k | 50 | 100,000 |
 | Arrow 500k | 60 | 500,000 |
 | Arrow 1M | 105 | 1,000,000 |
+| Arrow 5M | 109 | 5,000,000 |
 
 ## weapons-potions
 
-### Weapons
+### Throwing Pikes
+
+Unlimited-throw, no-durability pikes scattered around the ARK.
+
+| Pike | Effect |
+|------|--------|
+| Cluster Pike | Tek-style cluster explosion AOE — highest damage |
+| Freeze Pike | Ice explosion AOE |
+| Harambe's Toothpick | Static charge AOE — starter pike, drops from a higher-tier loot creature so it's gated past low levels |
+
+### Armor Sets
+
+Mix-and-match piece buffs, no durability, increased base armor.
+
+| Set | Drops From |
+|-----|------------|
+| Tidal Watcher Hide | Captain Cake Sniffer (T2 wild boss) |
+| Rapid Watcher Flak | Harambe (Cyclonic battle) |
+| Glacial Watcher Riot | Alpha Rex – Avatar 7 |
+
+### Helmets
+
+**Captain Hat**, **Wolf Hat**, and **Faytherlight Helmet** — drop sources and effects TBD.
+
+### Shields
+
+No durability. Each shield grants a buff while equipped.
+
+| Shield | Buff |
+|--------|------|
+| Cataclysm Watcher Wood | EXP bonus (stacks with most XP buffs) |
+| Cataclysm Watcher Metal | Rider Protection — survive projectile attacks while mounted |
+| Cataclysm Watcher Riot | Anti-Radiation — substitute for radiation suit |
+| Cataclysm Watcher Tek | Melee damage buff + damage cloud |
+
+### Tools
 
 **Cataclysm Pickaxe** — Custom pickaxe with high harvest rates.
+
+**Cataclysm Watcher Hatchet** — Infinite durability. Extra materials from all resources, including sap from trees.
+
+**Cataclysm Watcher Sickle** — Infinite durability. Extra fiber, chance to harvest berries and veggies.
+
+### Saddles
+
+**Tsunami Saddles** — Species-specific, backwards-compatible (work on lower-tier creatures too). Start at 150 Armor (vs vanilla 25), upgradeable through normal means. When a rider is mounted, the dino is buffed in Melee and Stamina Regen — buff drops when the rider dismounts. Currently only Tsunami-tier creatures have saddles; higher tiers planned.
+
+**Tsunami Costume Slot Armor** — Crafted in player inventory. For Tsunami creatures that don't have saddle slots.
 
 ### Potions
 
@@ -384,11 +455,21 @@ Drops all artifacts.
 
 Bosses unlock Tek Engrams at Tier 4 Cyclonic and provide materials for continued progression.
 
+### Tidal Wild Bosses (T2)
+
+**Captain Cake Sniffer** — Tier 2 wild boss. Defeating drops the first armor set (Tidal Watcher Hide) plus rider-protection items, and gives a tame summon token. Framed as a prep boss before the Cyclonic battle with Harambe.
+
 ### Cyclonic Bosses (T4)
 
 **Summon:** Craft Cyclonic Boss token at level 50
 
 **Drops:** Materials for Glacial Kibble, Tameable Boss Tokens
+
+### Cyclonic 2.0 Bosses (Side Progression)
+
+A side-progression series for upgrading existing boss tames outside the main tier-up flow.
+
+**Cyclonic Dragon 2.0** — first 2.0 fight. Craft the Cyclonic Dragon Boss token, defeat the upgraded boss, and receive a 2.0 summon token (auto-tame).
 
 ### Maelstrom Bosses (T8)
 
@@ -396,11 +477,11 @@ Bosses unlock Tek Engrams at Tier 4 Cyclonic and provide materials for continued
 
 **Drops:** Ancient Fragments, Futuristic Fragments, Tameable Boss Tokens
 
+**HP:** Semi-random roll on summon — consistently above 30M.
+
 ### Watcher Bosses (T12)
 
 Coming Soon — will unlock Atlantean Kibble materials.
-
-> For all Boss Tames, a side progression where you can upgrade your boss tame outside of the main tier-up progression is planned.
 
 ## tek-unlocks
 
@@ -481,7 +562,7 @@ Set spoil multiplier to **1** or higher — do not make spoil time faster than 1
 
 **What are Avatars?** Dinos that let you play as the creature instead of riding it. Currently only Runt Featherlight Avatar is available.
 
-**Can I craft dinos?** Some elusive dinos like Phoenix must be crafted, not tamed wild. Runt Phoenix and Runt Xenomorph are craftable (tier-up not yet available).
+**Can I craft dinos?** Some elusive dinos like Phoenix must be crafted, not tamed wild. Runt Phoenix and Runt Xenomorph are craftable. Phoenix tier-up is now available — craft Tidal Phoenix in your inventory after taming the Runt Phoenix.
 
 **What are Loot Creatures?** Treasure Goat, Treasure Stag, Resource Goat, Resource Otter, and Artifact Queen Bee drop valuable items.
 
@@ -512,7 +593,7 @@ Complete list of creatures available in Cataclysm 2.0, organized by tier.
 
 ### Loot Creatures
 
-Artifact Queen Bee, Resource Goat, Resource Otter, Treasure Goat, Treasure Stag, Mega Treasure Rex
+Artifact Queen Bee, Bunny Dodo - Narcotic, Bunny Dodo - Paste, Bunny Dodo - Stimulant, Loot Turkey - Builder, Loot Turkey - Element, Loot Turkey - Farm, Loot Turkey - Starter Kit, Meat Dodo, Mega Treasure Rex, Resource Goat, Resource Otter, Tidal Land Jelly, Treasure Goat, Treasure Stag
 
 ### Avatar
 
@@ -524,11 +605,11 @@ Allosaurus, Ankylosaurus, Argentavis, Baryonyx, Basilosaurus, Bigfoot, Camelsaur
 
 ### T2 Tidal
 
-Allosaurus, Ankylosaurus, Argentavis, Baryonyx, Basilosaurus, Bigfoot, Camelsaurus, Carcharodontosaurus, Carnotaurus, Cave Wolf, Crystal Wyvern, Daeodon, Direbear, Direwolf, Doedicurus, Dolphin, Dunkleosteus, Equus, Griffin, Hatchling, Mammoth, Mantis, Megalodon, Megalosaurus, Megatherium, Mosasaurus, Moschops, Owl, Parasaur, Pelagornis, Procoptodon, Pteranodon, Rex, Rhino, Sabertooth, Scorpion, Shoulder Dragon, Spiney Lizard, Spinosaurus, Stegosaurus, Tapejara, Therizinosaur, Thylacoleo, Trike, Turtle
+Acrocanthosaurus, Allosaurus, Ankylosaurus, Argentavis, Baryonyx, Basilosaurus, Bigfoot, Camelsaurus, Captain Cake Sniffer, Carcharodontosaurus, Carnotaurus, Cave Wolf, Crystal Wyvern, Daeodon, Direbear, Direwolf, Doedicurus, Dolphin, Dunkleosteus, Equus, Featherlite, Griffin, Hatchling, Mammoth, Mantis, Megalodon, Megalosaurus, Megatherium, Mosasaurus, Moschops, Owl, Parasaur, Pelagornis, Procoptodon, Pteranodon, Rex, Rhino, Sabertooth, Scorpion, Shoulder Dragon, Spiney Lizard, Spinosaurus, Stegosaurus, Tapejara, Therizinosaur, Thylacoleo, Trike, Turtle
 
 ### T3 Rapid
 
-Ankylosaurus, Argentavis, Bulbdog, Crystal Wyvern, Direwolf, Dolphin, Dragonfly, Dunkleosteus, Equus, Giganotosaurus, Griffin, Megalodon, Moschops, Owl, Parasaur, Pelagornis, Procoptodon, Pteranodon, Rock Drake, Sabertooth, Sauropod, Tapejara, Turtle, Xenomorph
+Acrocanthosaurus, Ankylosaurus, Argentavis, Bronto, Bulbdog, Crystal Wyvern, Daeodon, Direwolf, Dolphin, Dragonfly, Dunkleosteus, Equus, Giganotosaurus, Griffin, Mammoth, Megalodon, Moschops, Owl, Parasaur, Pelagornis, Procoptodon, Pteranodon, Rhino, Rock Drake, Sabertooth, Stegosaurus, Tapejara, Trike, Turtle, Xenomorph
 
 ### T4 Cyclonic — Boss Gate
 
@@ -538,11 +619,11 @@ Ankylosaurus, Argentavis, Bulbdog, Crystal Wyvern, Direwolf, Dolphin, Dragonfly,
 
 ### T5 Glacial
 
-Andrewsarchus, Argentavis, Basilosaurus, Ceratosaurus, Crystal Wyvern, Desmodus, Direbear, DodoRexy, Fae Drake, Giganotosaurus, Gigantoraptor, Griffin, Hatchling, Milk Glider, Nunatak, Owl, Phoenix, Pteranodon, Rex, Rock Drake, Spiney Lizard, Spirit Bear, Tropeognathus, Unicorn, Val Megaraptor, Young Ice Fox
+Andrewsarchus, Argentavis, Basilosaurus, Ceratosaurus, Crystal Wyvern, Desmodus, Direbear, DodoRexy, Fae Drake, Featherlite, Giganotosaurus, Gigantoraptor, Griffin, Hatchling, Milk Glider, Nunatak, Owl, Phoenix, Pteranodon, Rex, Rock Drake, Spiney Lizard, Spirit Bear, Tropeognathus, Unicorn, Val Megaraptor, Young Ice Fox
 
 ### T6 Undead
 
-Ceratosaurus, Crystal Wyvern, Dragonfly, Giganotosaurus, Griffin, Hatchling, Manticore, Mantis, Megatherium, Moschops, Rex, Rock Drake, Spiney Lizard, Spinosaurus, Therizinosaur, Xenomorph
+Acrocanthosaurus, Ceratosaurus, Crystal Wyvern, Dragonfly, Featherlite, Giganotosaurus, Griffin, Hatchling, Manticore, Mantis, Megatherium, Moschops, Rex, Rock Drake, Spiney Lizard, Spinosaurus, Therizinosaur, Xenomorph
 
 ### T7 Soaring
 
